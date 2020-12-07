@@ -89,12 +89,18 @@
             color: #ffffff;
         }
 
+        h2 {
+            font-size: 45px;
+            margin-bottom: 25px;
+        }
+        
         .content-img { 
             max-height: 200px;
             float: left;
             margin-right: 25px;
          }   
-         
+
+
 /*Styling For The Benefits Aside*/   
 
     .benefits {
@@ -118,6 +124,7 @@
             margin: 10px auto;
             max-width: 150px;
         }
+
 
 
 /*This is the Styling for the Footer*/
