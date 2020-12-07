@@ -10,6 +10,21 @@
         background-color: #d9dcd6;
     }
 
+    header {
+        padding: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #2a607c;
+        color: #ffffff;
+    }
+
+    nav {
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+
     h1 { /*question on why this is highlighted*/
         display: inline-block;
         font-size: 48px;
@@ -18,6 +33,11 @@
 
     h2 h3 {
         color: #ffffff;
+    }
+
+    ul li {
+        display: inline-block;
+        margin-left: 25px;
     }
 
     p {
@@ -32,18 +52,13 @@
 
 /*Styling For Classes*/
 
-    .header {
-        padding: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        background-color: #2a607c;
-        color: #ffffff;
-    }
-
     .seo {
         color: #d9dcd6;
     }
 
-    .header div {
+   
+
+    div {
         padding-top: 15px;
         margin-right: 20px;
         float: right;
@@ -51,11 +66,11 @@
         font-size: 20px;
     }
 
-    .header div ul {
+    div ul {
         list-style-type: none;
     }
 
-    .header div ul li {
+    div ul li {
         display: inline-block;
         margin-left: 25px;
     }
