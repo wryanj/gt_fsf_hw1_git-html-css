@@ -25,14 +25,6 @@
         font-size: 20px;
     }
 
-    div {
-        padding-top: 15px;
-        margin-right: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
-        display: inline-block;
-    }
-
     h1 { /*question on why this is highlighted*/
         display: inline-block;
         font-size: 48px;
@@ -68,14 +60,51 @@
         height: 800px;
         width: 100%;
         margin-bottom: 25px;
+        margin-right: 0px;
+        padding-top:0px;
         background-image: url("../images/digital-marketing-meeting.jpg");
         background-size: cover;
         background-position: center;
+        padding-right: 0px;
     }
+    
     .content {
         width: 75%;
         display: inline-block;
         margin-left: 20px;
+    }
+
+        .content-box { /*why when I change this name does ti all screw up even if I update it in the html file?*/
+            margin-bottom: 20px;
+            padding: 50px;
+            height: 300px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #0072bb;
+            color: #ffffff;
+        }
+
+        img { /*need to move this to elements or make this a class and get it to work with pics in the content boxes*/
+            max-height: 200px;
+        }
+    
+   
+    .social-media-marketing img {
+        max-height: 200px;
+    }
+
+    .search-engine-optimization h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+    .online-reputation-management h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+    .social-media-marketing h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
     }
 
     .benefits {
@@ -135,60 +164,6 @@
         display: block;
         margin: 10px auto;
         max-width: 150px;
-    }
-
-    .search-engine-optimization {
-        margin-bottom: 20px;
-        padding: 50px;
-        height: 300px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: #0072bb;
-        color: #ffffff;
-    }
-
-    .online-reputation-management {
-        margin-bottom: 20px;
-        padding: 50px;
-        height: 300px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: #0072bb;
-        color: #ffffff;
-    }
-
-    .social-media-marketing {
-        margin-bottom: 20px;
-        padding: 50px;
-        height: 300px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: #0072bb;
-        color: #ffffff;
-    }
-
-    .search-engine-optimization img {
-        max-height: 200px;
-    }
-
-    .online-reputation-management img {
-        max-height: 200px;
-    }
-
-    .social-media-marketing img {
-        max-height: 200px;
-    }
-
-    .search-engine-optimization h2 {
-        margin-bottom: 20px;
-        font-size: 36px;
-    }
-
-    .online-reputation-management h2 {
-        margin-bottom: 20px;
-        font-size: 36px;
-    }
-
-    .social-media-marketing h2 {
-        margin-bottom: 20px;
-        font-size: 36px;
     }
 
     .footer {
