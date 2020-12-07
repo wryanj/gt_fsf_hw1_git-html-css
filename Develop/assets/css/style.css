@@ -9,13 +9,7 @@
         background-color: #d9dcd6;
     }
 
-    h1 {
-        display: inline-block;
-        font-size: 48px;
-        color: #ffffff;
-    }
-
-    h2 h3 {
+    h1 h2 h3  {
         color: #ffffff;
     }
 
@@ -46,6 +40,11 @@
         background-color: #2a607c;
         color: #ffffff;
      }
+
+        h1 {
+            display: inline-block;
+            font-size: 48px;
+        }
 
         .seo {
             color: #d9dcd6;
@@ -132,7 +131,6 @@
         }
 
 
-
 /*This is the Styling for the Footer*/
 
     .footer {
@@ -142,5 +140,5 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: center;
     }
- 
+
     
