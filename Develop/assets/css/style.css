@@ -30,7 +30,6 @@
 
     p {
         font-size: 16px;
-        display: inline-block;
     }
 
     a {
@@ -96,7 +95,6 @@
             margin-right: 25px;
          }   
          
-
 /*Styling For The Benefits Aside*/   
 
     .benefits {
