@@ -5,7 +5,7 @@
         margin: 0;
     }
 
-/*Styling For Elements*/
+/*Styling For Elements Types*/
     body {
         background-color: #d9dcd6;
     }
@@ -23,6 +23,14 @@
         float: right;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
+    }
+
+    div {
+        padding-top: 15px;
+        margin-right: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        display: inline-block;
     }
 
     h1 { /*question on why this is highlighted*/
@@ -56,25 +64,6 @@
         color: #d9dcd6;
     }
 
-   
-
-    div {
-        padding-top: 15px;
-        margin-right: 20px;
-        float: right;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
-    }
-
-    div ul {
-        list-style-type: none;
-    }
-
-    div ul li {
-        display: inline-block;
-        margin-left: 25px;
-    }
-
     .hero {
         height: 800px;
         width: 100%;
@@ -83,17 +72,6 @@
         background-size: cover;
         background-position: center;
     }
-
-    .float-left {
-        float: left;
-        margin-right: 25px;
-    }
-
-    .float-right {
-        float: right;
-        margin-left: 25px;
-    }
-
     .content {
         width: 75%;
         display: inline-block;
@@ -108,7 +86,7 @@
         width: 20%;
         height: 100%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: #2589bd;
+        background-color: #0072bb;
     }
 
     .benefit-lead {
@@ -223,3 +201,17 @@
     .footer h2 {
         font-size: 20px;
     }
+
+
+/*float classes*/
+    .float-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .float-right {
+        float: right;
+        margin-left: 25px;
+    }
+
+    
