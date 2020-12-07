@@ -94,9 +94,15 @@
             margin-bottom: 25px;
         }
         
-        .content-img { 
+        .content-img-l { 
             max-height: 200px;
             float: left;
+            margin-right: 25px;
+         }   
+
+         .content-img-r { 
+            max-height: 200px;
+            float: right;
             margin-right: 25px;
          }   
 
@@ -137,15 +143,4 @@
         text-align: center;
     }
  
-/*float classes*/
-    .float-left {
-        float: left;
- 
-    }
-
-    .float-right {
-        float: right;
-        margin-left: 25px;
-    }
-
     
