@@ -1,6 +1,7 @@
 /*
 The CSS is organized to follow the same structure as the HTML file top to bottom. Classes were used most heavily and were named
-consistently with semantic tags utilized in the HTML file.
+consistently with semantic tags utilized in the HTML file. Classess were asigned to elemenets since often times, common elements (e.x an h2)
+would have different styling in different sections / asides etc.
 /*
 
 /*Global Styling and Styling By Generic Elemenet Selector*/
@@ -14,23 +15,9 @@ consistently with semantic tags utilized in the HTML file.
         background-color: #d9dcd6;
     }
 
-    h1 h2 h3  {
+    h1 h2 h3 p {
         color: #ffffff;
     }
-
-    h3 {
-        text-align: center;
-    }
-
-    ul li {
-        display: inline-block;
-        margin-left: 25px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
 
 /*Styling for the Header and Child Elemenets*/
 
@@ -57,11 +44,16 @@ consistently with semantic tags utilized in the HTML file.
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 20px;
          }
-
-            .nav-a {
-                color: #ffffff;
-                text-decoration: none;
+         
+            .nav-li {
+                display:inline-block;
+                margin-left:25px;
             }
+
+                .nav-a {
+                    color: #ffffff;
+                    text-decoration: none;
+                }
 
  /*Styling for the HERO Container*/
 
@@ -78,6 +70,7 @@ consistently with semantic tags utilized in the HTML file.
     }
     
 /*Styling For The Main Content Section and Child Elemenets*/
+
     .content {
         width: 75%;
         display: inline-block;
@@ -93,22 +86,22 @@ consistently with semantic tags utilized in the HTML file.
             color: #ffffff;
         }
 
-        .content-h2 {
-            font-size: 45px;
-            margin-bottom:25px;
-        }
-        
-        .content-img-l { 
-            max-height: 200px;
-            float: left;
-            margin-right: 25px;
-         }   
+            .content-h2 {
+                font-size: 45px;
+                margin-bottom:25px;
+            }
+            
+            .content-img-l { 
+                max-height: 200px;
+                float: left;
+                margin-right: 25px;
+            }   
 
-         .content-img-r { 
-            max-height: 200px;
-            float: right;
-            margin-left: 25px;
-         }   
+            .content-img-r { 
+                max-height: 200px;
+                float: right;
+                margin-left: 25px;
+            }   
 
 
 /*Styling For The Benefits Aside and Chile Elements*/   
@@ -129,11 +122,15 @@ consistently with semantic tags utilized in the HTML file.
             color: #ffffff;
         }
 
-        .benefit-img {
-            display: block;
-            margin: 10px auto;
-            max-width: 150px;
-        }
+            .benefit-h3 {
+                text-align: center;
+            }
+
+            .benefit-img {
+                display: block;
+                margin: 10px auto;
+                max-width: 150px;
+            }
 
 
 /*This is the Styling for the Footer*/
@@ -145,5 +142,9 @@ consistently with semantic tags utilized in the HTML file.
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: center;
     }
+
+        .footer-h3 {
+            font-size: 24px;
+        }
 
     
