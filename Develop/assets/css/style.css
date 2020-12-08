@@ -41,12 +41,12 @@
         color: #ffffff;
      }
 
-        h1 {
+        .header-h1 {
             display: inline-block;
             font-size: 48px;
         }
 
-        .seo {
+        .header-span {
             color: #d9dcd6;
         }
 
