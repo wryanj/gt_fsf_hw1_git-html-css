@@ -1,101 +1,25 @@
-# 01 HTML CSS Git: Code Refactor
+# HTML CSS Git_Homework1_Code Refactor
 
-## Your Task
+## Table of Contents
+1. [Description] (#Descriptoin)
+2. [Installation] (#Installation)
+3. [Usage] (#Usage)
+4. [Credits] (#Credits)
+5. [Liscence] (#Liscence)
 
-**Note**: Be sure to review the [Homework Guide](../04-Important/Homework-Guide/README.md) and the [Good README Guide](../04-Important/Good-README-Guide/README.md) before you start working on this assignment!
+## Description
+This assignment presented us with an html file, a css file, and some related images that were used as assets in the webpage. The task for us was to re factor the code to make sure it was clean, organized semantically, and updated so that it was more efficiently coded to generate the same result. The code we were given worked (generally) with exception to the links, however, it was very messy in both the HTML and CSS file. WIthin the CSS file, there was no clear structure of the file and there were multiple classes and such that could be cut out based on better grouping of CSS properties within a class or by elemenet selector. 
 
-This week is an odd-numbered week, so your homework is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's homework involves a very important aspect of web development: **accessibility**. 
+I learned a lot about various CSS properties I had not been exposed to, and I also learned that white space and semantically organized code that follows a similiar top-bottom stucture in the html file and css is much easier to work on and debug, compared to having it jammed together with bad indentation and not a logical outline established. The use of comments to put human readable labels on code blocks also helps to navigate through the code to make fixes, consolidations or improvements. I found I prefer to have lots of white space with indentation to make it easier to see child and parent elements. I also found naming classes the align with their semantic structure is useful. Lastly, I made good use of the build in code inspection feature which helps me to see the code on the screen, and trace back styling issues based on what the inspection window is saying are the cascading styles applied to an element of interest. 
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+## Installation
+I deployed this URL via git hub pages. I modified the code and readme in VS code and did testing with a live server using chrome. 
 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
+## Usage
+This site is not really usable. As a student, I will however use it as reference to see how I organized my HTML and CSS upon re-factor so that I can use this as a guideline in the future when authoring new code and wanting to keep it clean, structured, and easy to work on. 
 
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
+## Credits
+Due to my time constraints, I worked on this generally alone. I utilized instruction materials from the class instructor as well as W3 resoruces, and some help from my GT tutoring resources. 
 
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
-
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Are you ready to jump in? Here are this week's homework requirements:
-
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application resembles (at least 90%) screenshots provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## Liscence
+Determining best liscence- starting code resource pulled from class and trilogy educatoin. 

@@ -26,14 +26,11 @@ would have different styling in different sections / asides etc.
         color: #ffffff;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding: 20px;
-
-       
      }
 
         .header-h1 {
             display: inline-block;
             font-size: 48px;
-            
         }
 
         .header-span {
