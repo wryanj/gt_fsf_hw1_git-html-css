@@ -15,22 +15,25 @@ would have different styling in different sections / asides etc.
         background-color: #d9dcd6;
     }
 
-    h1 h2 h3 p {
+    h1 h2 h3 p a {
         color: #ffffff;
     }
 
 /*Styling for the Header and Child Elemenets*/
 
     .header {
-        padding: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         background-color: #2a607c;
         color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 20px;
+
+       
      }
 
         .header-h1 {
             display: inline-block;
             font-size: 48px;
+            
         }
 
         .header-span {
@@ -38,13 +41,13 @@ would have different styling in different sections / asides etc.
         }
 
         .nav {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
             padding-top: 15px;
             margin-right: 20px;
             float: right;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 20px;
          }
-         
+
             .nav-li {
                 display:inline-block;
                 margin-left:25px;
@@ -63,10 +66,10 @@ would have different styling in different sections / asides etc.
         margin-bottom: 25px;
         margin-right: 0px;
         padding-top:0px;
+        padding-right: 0px;
         background-image: url("../images/digital-marketing-meeting.jpg");
         background-size: cover;
         background-position: center;
-        padding-right: 0px;
     }
     
 /*Styling For The Main Content Section and Child Elemenets*/
@@ -78,12 +81,12 @@ would have different styling in different sections / asides etc.
     }
 
         .content-box {
+            background-color: #0072bb;
+            color: #ffffff;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             margin-bottom: 20px;
             padding: 50px;
             height: 300px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            background-color: #0072bb;
-            color: #ffffff;
         }
 
             .content-h2 {
@@ -104,22 +107,21 @@ would have different styling in different sections / asides etc.
             }   
 
 
-/*Styling For The Benefits Aside and Chile Elements*/   
+/*Styling For The Benefits Aside and Child Elements*/   
 
     .benefits {
-        margin-right: 20px;
-        padding: 20px;
-        clear: both;
-        float: right;
+        background-color: #269be4;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         width: 20%;
         height: 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: #269be4;
+        margin-right: 20px;
+        padding: 20px;
+        float: right;
     }
 
         .benefit-box {
-            margin-bottom: 32px;
             color: #ffffff;
+            margin-bottom: 32px;
         }
 
             .benefit-h3 {
@@ -128,19 +130,18 @@ would have different styling in different sections / asides etc.
 
             .benefit-img {
                 display: block;
-                margin: 10px auto;
                 max-width: 150px;
+                margin: 10px auto;
             }
 
 
 /*This is the Styling for the Footer*/
 
     .footer {
-        font-size:20px;
-        padding: 30px;
-        clear: both;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:20px;
         text-align: center;
+        padding: 30px;
     }
 
         .footer-h3 {
