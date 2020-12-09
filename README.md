@@ -5,7 +5,6 @@
 2. - [Installation](#Installation)
 3. - [Usage](#Usage)
 4. - [Credits](#Credits)
-5. - [Liscence](#Liscence)
 
 ## Description
 This assignment presented us with an html file, a css file, and some related images that were used as assets in the webpage. The task for us was to re factor the code to make sure it was clean, organized semantically, and updated so that it was more efficiently coded to generate the same result. The code we were given worked (generally) with exception to the links, however, it was very messy in both the HTML and CSS file. WIthin the CSS file, there was no clear structure of the file and there were multiple classes and such that could be cut out based on better grouping of CSS properties within a class or by elemenet selector. 
