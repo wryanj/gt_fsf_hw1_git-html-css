@@ -57,13 +57,13 @@ a specific set of classes was created for those elements but named semantically.
  /*Styling for the HERO Container*/
 
     .hero {
+        background-image: url("../images/digital-marketing-meeting.jpg");
         height: 800px;
         width: 100%;
         margin-bottom: 25px;
         margin-right: 0px;
         padding-top:0px;
         padding-right: 0px;
-        background-image: url("../images/digital-marketing-meeting.jpg");
         background-size: cover;
         background-position: center;
     }
