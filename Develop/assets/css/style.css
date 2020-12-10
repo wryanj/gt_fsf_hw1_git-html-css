@@ -1,7 +1,7 @@
 /*
-The CSS is organized to follow the same structure as the HTML file top to bottom. Classes were used most heavily and were named
-consistently with semantic tags utilized in the HTML file. Classess were asigned to elemenets since often times, common elements (e.x an h2)
-would have different styling in different sections / asides etc.
+The CSS is organized to follow the same structure as the HTML file top to bottom. Classes were created for larger containers ie header, section, aside and footer while CSS 
+combinators were used to style specific elements that are children of containers with those classes. If an element type (example images in the content section) had different styles within the same class, 
+a specific set of classes was created for those elements but named semantically.
 /*
 
 /*Global Styling and Styling By Generic Elemenet Selector*/
@@ -19,7 +19,7 @@ would have different styling in different sections / asides etc.
         color: #ffffff;
     }
 
-/*Styling for the Header and Child Elemenets*/
+/*Styling For the Header Container and It's Child Elemenets*/
 
     .header {
         background-color: #2a607c;
@@ -27,16 +27,16 @@ would have different styling in different sections / asides etc.
         padding: 20px;
      }
 
-        .header-h1 {
+        .header h1 {
             display: inline-block;
             font-size: 48px;
         }
 
-        .header-span {
+        .header span {
             color: #d9dcd6;
         }
 
-        .nav {
+        .header nav {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 20px;
             padding-top: 15px;
@@ -44,12 +44,12 @@ would have different styling in different sections / asides etc.
             float: right;
          }
 
-            .nav-li {
+            .header li {
                 display:inline-block;
                 margin-left:25px;
             }
 
-                .nav-a {
+                .header a {
                     color: #ffffff;
                     text-decoration: none;
                 }
@@ -68,7 +68,7 @@ would have different styling in different sections / asides etc.
         background-position: center;
     }
     
-/*Styling For The Main Content Section and Child Elemenets*/
+/*Styling  For The Content (Section) Container and Its Child Elemenets*/
 
     .content {
         width: 75%;
@@ -76,7 +76,7 @@ would have different styling in different sections / asides etc.
         margin-left: 20px;
     }
 
-        .content-box {
+        .content div {
             background-color: #0072bb;
             color: #ffffff;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -85,25 +85,25 @@ would have different styling in different sections / asides etc.
             height: 300px;
         }
 
-            .content-h2 {
+            .content h2 {
                 font-size: 45px;
                 margin-bottom:25px;
             }
             
-            .content-img-l { 
+            .content-img-left { 
                 max-height: 200px;
                 float: left;
                 margin-right: 25px;
             }   
 
-            .content-img-r { 
+            .content-img-right { 
                 max-height: 200px;
                 float: right;
                 margin-left: 25px;
             }   
 
 
-/*Styling For The Benefits Aside and Child Elements*/   
+/*Styling Aside (Benefits) Container and Its Child Elements*/   
 
     .benefits {
         background-color: #269be4;
@@ -115,16 +115,16 @@ would have different styling in different sections / asides etc.
         float: right;
     }
 
-        .benefit-box {
+        .benefits div {
             color: #ffffff;
             margin-bottom: 32px;
         }
 
-            .benefit-h3 {
+            .benefits h3 {
                 text-align: center;
             }
 
-            .benefit-img {
+            .benefits img {
                 display: block;
                 max-width: 150px;
                 margin: 10px auto;
