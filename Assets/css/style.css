@@ -61,9 +61,6 @@ a specific set of classes was created for those elements but named semantically.
         height: 800px;
         width: 100%;
         margin-bottom: 25px;
-        margin-right: 0px;
-        padding-top:0px;
-        padding-right: 0px;
         background-size: cover;
         background-position: center;
     }
