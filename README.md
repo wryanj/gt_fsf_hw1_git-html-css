@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1.  [Deployed_Applicatoin](#Deployed Applicatoin)
+1.  [Deployed Applicatoin](#Deployed-Applicatoin)
 2.  [Description](#Description)
 2.  [Installation](#Installation)
 3.  [Usage](#Usage)
